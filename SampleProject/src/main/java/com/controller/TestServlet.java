@@ -10,12 +10,10 @@ import javax.servlet.http.HttpServletResponse;
 @WebServlet("/TestServlet")
 public class TestServlet extends HttpServlet {
 	private static final long serialVersionUID = 1L;
-	
+       
 	protected void doGet(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
-	System.out.println("TestServlet 실행");
-	System.out.println("TestServlet2 실행");
+		System.out.println("TestServelt생성");
 	}
-
 	protected void doPost(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
 		// TODO Auto-generated method stub
 		doGet(request, response);
